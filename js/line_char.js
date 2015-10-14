@@ -1,10 +1,9 @@
-function InitChart() {
-	 var lineData = [{'x': 1,   'y': 5}, 
-				 {'x': 20,  'y': 20}, 
-				 {'x': 40,  'y': 10}, 
-				 {'x': 60,  'y': 40}, 
-				 {'x': 80,  'y': 5}, 
-				 {'x': 100, 'y': 60}];
+function InitChart(str) {
+	var lineData = [];
+	for (var i = 0; i < 100; i++) {
+		lineData[i] = {'x': str[i].x, 'y': str[i].y };
+	}
+	
 
 	 var vis = d3.select("#visualisation");
 	 var WIDTH = 1000;
