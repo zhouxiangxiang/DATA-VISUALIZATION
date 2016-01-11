@@ -4,4 +4,20 @@
 	 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 	 		     http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	version="3.0">
+
+	<display-name> 
+		DATA_MAGIC
+	</display-name>
+
+	<servlet>
+		<servlet-name>  	DATA_MAGIC 	</servlet-name>
+		<servlet-class> 	com.DATA_MAGIC 	</servlet-class>
+		<load-on-startup> 	1 		</load-on-startup>
+		<init-param>
+			<param-name> name </param-name>
+			<param-value> value </param-value>
+		</init-param>
+	</servlet>
+
+	<session-timeout> 30 </session-timeout>
 </web-app>
