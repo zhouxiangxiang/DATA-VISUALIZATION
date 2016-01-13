@@ -17,51 +17,40 @@
 <body class="home" id="homepage">
 
   <div id="touchnav-wrapper">
-    <!-- Sister Site Links -->
-    <div id="top" class="top-bar do-not-print">
-     <nav class="meta-navigation container" role="navigation">
-       <ul class="menu" role="tree">
-         <li class="psf-meta ">
-             <a href="./html/My_Profile.html" title="My Profile">My Profile</a>
-         </li>
-         
-         <li class="docs-meta ">
-             <a href="./html/Blogs.html" title="Blogs">Blogs</a>
-         </li>
-         
-         <li class="pypi-meta ">
-             <a href="./html/Polls.html" title="Polls">Polls</a>
-         </li>  
-       </ul>
-     </nav>
-    </div>
+        <!-- Links -->
+        <div id="top" class="top-bar do-not-print">
+            <nav class="meta-navigation container" role="navigation">
+                <ul class="menu" role="tree">
+                  <li class="psf-meta ">
+                      <a href="./html/My_Profile.html" title="My Profile">My Profile</a>
+                  </li>
+                  
+                  <li class="docs-meta ">
+                      <a href="./html/Blogs.html" title="Blogs">Blogs</a>
+                  </li>
+                  
+                  <li class="pypi-meta ">
+                      <a href="./html/Polls.jsp" title="Polls">Polls</a>
+                  </li>  
+                </ul>
+            </nav>
+        </div> <!--end Links-->
+  
+  </div> <!--end touchnav-wrappter -->
 
     <!-- Header elements -->
     <header class="main-header" role="banner">
       <div class="container">
         <h1 class="site-headline">
-          <a href="./html/My_Profile.html">  
-		    <img src="./img/current.jpg" width="50" height="50" alt="xiangxiang">  
-		  </a>
+          <a href="./html/My_Profile.html"><img src="./img/current.jpg" width="50" height="50" alt="xiangxiang"></a>
         </h1>
 
         <div class="options-bar do-not-print">
           <div class="account-signin">
-		    <!--navigation -->
+    	    <!--navigation -->
             <ul class="navigation menu" aria-label="Social Media Navigation">
               <li class="tier-1 last" aria-haspopup="true">
                   <a href="./html/accounts/Login.html" title="Sign Up or Sign In to Python.org">Sign In</a>
-                  
-				  <!-- sub navigation -->
-				  <ul class="subnav menu">
-                      <li class="tier-2 element-1" role="treeitem">
-                        <a href="./html/accounts/Signup.html">Sign Up / Register</a>
-                      </li>
-                      <li class="tier-2 element-2" role="treeitem">
-                        <a href="./html/accounts/Login.html">Sign In</a>
-                      </li>
-                  </ul> <!-- end sub navigation -->
-                  
               </li>
             </ul> <!-- end navigation -->
           </div>
@@ -75,7 +64,7 @@
                  <!-- left side -->
                  <div class="slide-code">
 <code> 
-# For loop on a list               <br/>
+// For loop on a list              <br/>
 auto i = 2;                        <br/>  
 vector<int> vec{1, 2};             <br/>
 for (auto& it : vec) {             <br/>
@@ -86,70 +75,69 @@ for (auto& it : vec) {             <br/>
                  </div>
 				 
 				 <!-- right side -->
-                 <div class="slide-copy">
-                   <h1>All the Flow You’d Expect</h1> 
-                 </div>
+                 <div class="slide-copy"> <h1>All the Flow You’d Expect</h1> </div>
              </ul>
-		  </div>
+  	   </div>
         </div> <!--end header-banner -->
 		
 
-        <div class="introduction">
-            <p>love<span class="breaker"></span>
-        </div>
-
+        <div class="introduction"> <p>love<span class="breaker"></span> </div>
+      
       </div> <!-- end .container -->
     </header>
 
+    <!-- MAIN CONTENT -->
     <div id="content" class="content-wrapper">
+
       <!-- Main Content Column -->
       <div class="container">
         <section class="main-content " role="main">
+
           <div class="row">
-            <div class="small-widget get-started-widget">
-              <h2 class="widget-title">
-              <span aria-hidden="true" class="icon-get-started"></span>
-              <h2>Get Started </h2>
-            </div>
-            
-            <div class="small-widget download-widget">
+              <div class="small-widget get-started-widget">
+                <h2 class="widget-title"> <span aria-hidden="true" class="icon-get-started"></span> Get Started </h2>
+              </div>
+              
+              <div class="small-widget download-widget">
                 <h2 class="widget-title"><span aria-hidden="true" class="icon-download"></span>Download</h2>
-            </div>
-            
-            <div class="small-widget documentation-widget">
+              </div>
+              
+              <div class="small-widget documentation-widget">
                 <h2 class="widget-title"><span aria-hidden="true" class="icon-documentation"></span>Docs</h2>
-            </div>
-            
-            <div class="small-widget jobs-widget last">
+              </div>
+              
+              <div class="small-widget jobs-widget last">
                 <h2 class="widget-title"><span aria-hidden="true" class="icon-jobs"></span>Jobs</h2>
-            </div>
-    
-          </div>
-		</section>
+              </div>
+          </div> <!-- end row -->
+
+	</section>
       </div><!-- end .container -->
+
     </div><!-- end #content .content-wrapper -->
 
     <!-- Footer and social media list -->
     <footer id="site-map" class="main-footer" role="contentinfo">
-        <div class="site-base">
-            <div class="container">
-                <ul class="footer-links navigation menu do-not-print" role="tree">
-                    <li class="tier-1 element-1">
-          <a href="./html/Help.html">Help &amp;
-          <span class="say-no-more">General Contact</span>
-          </a>
-        </li>
-                </ul>
+       <div class="site-base">
+           <div class="container">
+               <ul class="footer-links navigation menu do-not-print" role="tree">
+                   <li class="tier-1 element-1">
+                       <a href="./html/Help.html">Help &amp;<span class="say-no-more">General Contact</span></a>
+       	           </li>
+               </ul>
+       
+               <div class="copyright">
+                   <p>
+		   <small>
+                       <span class="pre">Copyright ©2016-2016.</span>
+                       &nbsp;<span class="pre"><a href="./index.html">zhouxiangxiang</a></span>
+                   </small>
+		   </p>
+               </div>
+       
+           </div> <!-- end container -->
+       </div> <!-- end site-base -->
 
-                <div class="copyright">
-                    <p><small>
-                        <span class="pre">Copyright ©2016-2016.</span>
-                        &nbsp;<span class="pre"><a href="./index.html">zhouxiangxiang</a></span>
-                    </small></p>
-                </div>
-
-            </div><!-- end .container -->
-        </div><!-- end .site-base -->
     </footer>
     
 </body>

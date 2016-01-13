@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media(min-width:32.5em){
+  .container{
+    max-width:75em;
+    width:100%;
+    margin:0 auto;
+    padding:0
+  }
+}
+
+
+.small-widget{
+  width:50%;
+  float:left;
+  margin:10 auto;
+  border:1px solid black;
+  margin-left:30px;
+}
+
+button {
+  margin-left:20px;
+}
+
